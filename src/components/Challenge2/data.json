@@ -1,0 +1,68 @@
+[
+  {
+    "type": "men",
+    "quantity": "212.9M",
+    "by-country": [
+      {
+        "country": "australia",
+        "quantity": "12.84M"
+      },
+      {
+        "country": "ghana",
+        "quantity": "16.46M"
+      },
+      {
+        "country": "indonesia",
+        "quantity": "139.13M"
+      },
+      {
+        "country": "kenya",
+        "quantity": "27.32M"
+      }
+    ]
+  },
+  {
+    "type": "women",
+    "quantity": "212.9M",
+    "by-country": [
+      {
+        "country": "australia",
+        "quantity": "12.94M"
+      },
+      {
+        "country": "ghana",
+        "quantity": "16.38M"
+      },
+      {
+        "country": "indonesia",
+        "quantity": "137.23M"
+      },
+      {
+        "country": "kenya",
+        "quantity": "27.66M"
+      }
+    ]
+  },
+  {
+    "type": "youth",
+    "quantity": "172.9M",
+    "by-country": [
+      {
+        "country": "australia",
+        "quantity": "5.71M"
+      },
+      {
+        "country": "ghana",
+        "quantity": "14.62M"
+      },
+      {
+        "country": "indonesia",
+        "quantity": "82.96M"
+      },
+      {
+        "country": "kenya",
+        "quantity": "24.42M"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+#component-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  height: fit-content;
+  max-width: 900px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 20px 0 rgba(60, 62, 65, 0.3), 0 1px 3px 1px rgba(94, 95, 96, 0.15);
+
+  p {
+    margin: 0;
+  }
+
+  .main-wrapper {
+    width: 30%;
+    flex-grow: 1;
+    margin: 5px 10px;
+    
+    .info-wrapper {
+      margin: 5px 0;
+
+      .quantity {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 2.5px;
+      }
+
+      .type {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2.5px;
+        text-transform: uppercase;
+      }
+    }
+
+    .by-country-wrapper {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #dfe1e5;
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+  
+      .by-country-text {
+        font-weight: bold;
+        margin: 0 5px;
+      }
+
+      .details-holder {
+        display: flex;
+        flex-wrap: wrap;
+
+        .details-wrapper {
+          width: 45%;
+          flex-grow: 1;
+          padding: 5px;
+          margin: 5px;
+          box-sizing: border-box;
+          text-transform: capitalize;
+          background-color: #cbe6ff;
+          border-radius: 10px;
+          box-sizing: border-box;
+  
+          &.men {
+            background-color: #d8f5f3;
+  
+            .quantity {
+              background-color: #39b1ac;
+            }
+  
+            .country {
+              color: #39b1ac;
+            }
+          }
+  
+          &.women {
+            background-color: #e9e0ff;
+  
+            .quantity {
+              background-color: #553b9a;
+            }
+  
+            .country {
+              color: #553b9a;
+            }
+          }
+  
+          &.youth {
+            background-color: #cbe6ff;
+  
+            .quantity {
+              background-color: #3282ce;
+            }
+  
+            .country {
+              color: #3282ce;
+            }
+          }
+    
+          .quantity {
+            width: 100%;
+            display: inline-block;
+            font-weight: bold;
+            padding: 3.5px;
+            color: #FFF;
+            border-radius: 5px;
+            box-sizing: border-box;
+          }
+    
+          .country {
+            display: inline-block;
+            margin: 5px;
+          }
+        }
+      }
+    }
+  }
+}

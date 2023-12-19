@@ -1,0 +1,26 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+
+  #tab-wrapper {
+    margin: 20px;
+
+    .tab {
+      margin: 10px;
+      color: #1b63c1;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
